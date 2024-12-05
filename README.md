@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 //
 please create new brances both of you don't push into the main branch
-w
+when you install tailwind please remember postcss and tailwind config
