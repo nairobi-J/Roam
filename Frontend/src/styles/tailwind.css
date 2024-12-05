@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.custom-bg {
-    background-color: red;
+
+  button {
+    background-color: #b8b8fa;
+    padding: 8px;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    &:hover{
+      background-color: #ddddf5;
+      color: black;
+    }
+
+  }
+
+  input{
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 2px;
   }
