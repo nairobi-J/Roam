@@ -6,13 +6,7 @@ const Modal = ({onClose,signUp}) => {
 
   return (
     <div  className='fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm flex flex-col gap-4 items-center justify-center '>
-       
-      
-        
-       
-        
-        
-      <form className='flex flex-col gap-8 justify-center items-center bg-blue-100 rounded-md p-10'>
+       <form className='flex flex-col gap-8 justify-center items-center bg-blue-100 rounded-md p-10'>
       <div className="pl-60">  <button className=' bg-red-500 place-self-end hover:bg-red-700 hover:text-white' onClick={onClose}>  < X size = {10}/></button></div>
       <div className='flex flex-col gap-2 justify-center items-baseline'>
         {signUp &&  (<><label >
