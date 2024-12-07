@@ -17,7 +17,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [signUp, isSignUp] = useState(false);
-  const [isSignIn, setSignIn] = useState(true);
+  const [isSignIn, setSignIn] = useState(false);
   const [isAdmin, setAdmin] = useState(true);
 
   const handleClick = () => {
@@ -32,8 +32,8 @@ function App() {
   return (
     <Router> {/* Wrap the entire app inside Router */}
       <div
-        className=" bg-fixed bg-cover bg-center h-screen"
-        style={{ backgroundImage: 'url(/bg.webp)' }} // Correct way to set background image
+        className=" bg-fixed bg-cover bg-center h-screen bg-white"
+         // Correct way to set background image
       >
         {/* Render navigation conditionally based on isSignIn state */}
         
